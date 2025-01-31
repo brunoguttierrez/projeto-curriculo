@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+</head>
+<style>
+    body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #293E49;
+    background-color: #F4F2EE;
+    }
+
+    h1 {
+        color: #fff;
+        align-self: center;
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+
+    hr {
+        width: 80%;
+        height: 1px;
+    }
+
+    .corpo-curriculo {
+        width: 100%;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .capa {
+        width: 100%;
+        max-width: 80%;
+        background-image: url("./assets/imagens/fundo-capa1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 220px;
+        border-radius: 10px 10px 0 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .capa img {
+        border: 3px solid #fff;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        align-self: center;
+    }
+
+    .objetivo {
+        margin-top: 20px;
+    }
+
+    .fundo-curriculo{
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 80%;
+    }
+
+    .fundo-curriculo img {
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style-type: circle; 
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+    @media (max-width: 733px) {
+
+        .capa {
+            flex-direction: column;
+        }
+
+        .capa h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .capa img {
+            height: 120px;
+            width: 120px;
+            margin-top: 10px;
+        }
+
+        footer small {
+            font-size: 0.6em;
+        }
+    }
+</style>
+<body>
+    <div class="corpo-curriculo">
+        <div class="capa">
+            <img src="./assets/imagens/perfil.jpg" height="150px">
+            <h1> Bruno Guttierrez Fernandes Netto</h1>
+        </div>
+        <br>
+        <div class="fundo-curriculo objetivo">
+            <h2>Objetivo</h2>        
+            <p>Desenvolvedor web</p>
+        </div>
+        <hr>
+        <div class="fundo-curriculo">
+            <h2>Resumo Profissional</h2>
+            <p>Profissional de Tecnologia da Informação com mais de 8 anos de experiência em análise de negócios, suporte
+                técnico e implantação de sistemas, com vivência em ambientes TOTVS. Experiência em administração de
+                redes, suporte a usuários, implementação de soluções ERP e análise de operações. Conhecimento prático em
+                tecnologias e ferramentas essenciais, como HTML, CSS, JavaScript, Bootstrap e SQL, além de experiência em
+                ambientes de servidor e suporte à infraestrutura. Hábil na análise de requisitos, proposta de cenários de
+                melhoria, gerenciamento de cronogramas, documentação e capacitação de usuários, com forte capacidade de
+                comunicação e resolução de problemas.
+            </p>
+        </div>
+        <hr>
+        <div class="fundo-curriculo">
+            <h2>Experiência Profissional</h2>
+            <h3>Multidados TI Ltda</h3>
+            <h4>Analista de Negócios Jr | Setembro de 2023 – Novembro de 2024 (1 ano e 2 meses )</h4>
+                <p>Responsável pela implantação de sistemas CRM em empresas dos setores de construção e consultoria SAP, com atuação na análise de negócios, identificação de necessidades específicas e sugestão de cenários personalizados. Experiência no planejamento e gerenciamento de projetos, incluindo a criação de cronogramas, documentação técnica e organização de reuniões. Habilidade em conduzir treinamentos e capacitar usuários, oferecendo suporte pós-implantação para garantir a adoção do sistema e a resolução de incidentes.</p>
+            <h3>Moinho Canuelas</h3>
+            <h4>Analista de TI | Dezembro de 2018 – Outubro de 2022 (3 anos e 11 meses)</h4>
+            <p>Responsável pela administração da rede de computadores, criação e administração de contas de usuários no AD e e-mails, GPO,permissões, administração de Sistemas de Telefonia e PABX, controle de acesso a impressoras de rede, criação de imagens,backup de sistemas, execuções de query em banco SQL Server, configuração de máquinas em domínio, instalação e configuração de modens e roteadores wifi, monitoramento de links.de drives, instalação de softwares de upgrades, adaptações e modificações para a melhora do desempenho dos equipamentos.</p>
+            <h3>Gerenciamento Ambienta TechLix</h3>
+            <h4>Auxiliar de TI | Maio de 2016 – Novembro de 2018 (2 anos e 7 meses)</h4>
+            <p>Responsável pelo atendimento a 45 usuários, realizando manutenção preventiva e corretiva das máquinas como backup, formatação, configuração de e-mails, antivírus, softwares de acesso remoto e impressoras. Incumbido pelas licenças Microsoft, e algumas partes da infraestrutura da rede, além da manipulação no banco de dados, elaborações e alterações no código fonte do Sistema ERP da empresa (Linguagem FiveWin), entre outras atividades.</p>
+        </div>
+        <hr>
+        <div class="fundo-curriculo">
+            <h2>Formação Acadêmica</h2>
+            <p>Graduado em Gestão da Tecnologia da Informação</p>
+        </div>
+        <hr>
+        <div class="fundo-curriculo">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Análise de Negócios e Operações: Identificação de necessidades, mapeamento de processos e proposta de
+                    melhorias.</li>
+                <li>Gestão de Projetos: Planejamento, execução e monitoramento de cronogramas e entregas.</li>
+                <li>Suporte Técnico e Infraestrutura: Administração de redes, AD, GPO, telefonia, PABX, controle de
+                    permissões e backup de dados.</li>
+                <li>Desenvolvimento Front-End: HTML, CSS, JavaScript, Bootstrap.</li>
+                <li>Banco de Dados: SQL Server, MySQL, consultas e manipulação de dados.</li>
+                <li>Gerenciamento de Incidentes: Solução de problemas e atendimento ao cliente.</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="fundo-curriculo">
+            <h2>Cursos Complementares</h2>
+            <ul>
+                <li>DevOps Essentials</li>
+                <li>Empreendedorismo, Negócios e Startups na Prática</li>
+                <li>Gestão Estratégica de TI</li>
+                <li>Macros VBA para Excel</li>
+            </ul>
+        </div>
+
+        <hr>
+        <div class="fundo-curriculo">
+            <a href="https://www.linkedin.com/in/bruno-guttierrez/"><img src="./assets/imagens/linkedin 32px.png" alt=""></a>
+            <br>
+            <a href="./public/sobre-mim.html">Sobre Mim</a>
+            <a href="./public/contato.html">Contate me</a>
+        </div>
+        <footer>
+            <small>
+                CopyRight © 2025 - Bruno Guttierrez. Todos os direitos reservados.
+            </small>
+        </footer>
+    </div>
+</body>
+</html>
